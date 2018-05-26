@@ -1,0 +1,720 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2018-05-25 22:46:29</RunStartTime>
+        <Timezone>India Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>POC</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2018-05-25 22:46:29</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration>134</Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+                <HostName>A5908886</HostName>
+                <NumberOfCores>8</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>16199</TotalMemory>
+                <Locale><![CDATA[en-US]]></Locale>
+                <Timezone>India Standard Time</Timezone>
+                <User>ql253e</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+            <ToolVersion><![CDATA[14.0]]></ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name><![CDATA[com.testsuites]]></Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2018-05-25 22:46:29</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration>134</Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name><![CDATA[com.testsuites.PO_Tests]]></Name>
+                    <Description/>
+                    <StartTime>2018-05-25 22:46:29</StartTime>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Duration>134</Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>test</Name>
+                        <Description/>
+                        <StartTime>2018-05-25 22:46:29</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration>127</Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Browser.launch]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;FIREFOX&quot;</td></tr></table>]]></Description>
+                            <StartTime>2018-05-25 22:46:29</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>0</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path/>
+                                        <Operation>launch</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;FIREFOX&quot;</td></tr></table>]]></OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Browser</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                        <FlowTreeNodeCaption><![CDATA[Browser.<span class='emphasis'>launch("Firefox")</span>]]></FlowTreeNodeCaption>
+                                        <FlowTreeNodeTooltip><![CDATA[Browser.launch("Firefox")]]></FlowTreeNodeTooltip>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[WSSO - Redirector.navigate]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;http://ponotes-test.web.boeing.com/index.asp?Page=Home&quot;</td></tr></table>]]></Description>
+                            <StartTime>2018-05-25 22:46:31</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>6</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[WSSO - Redirector]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>navigate</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;http://ponotes-test.web.boeing.com/index.asp?Page=Home&quot;</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[type]]></Name>
+                                                <Value><![CDATA[Mozilla Firefox]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[version]]></Name>
+                                                <Value><![CDATA[52.7.2]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Browser</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[WSSO - Redirector]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="CustomStep">
+                        <Data>
+                            <Name>PO Home Page</Name>
+                            <Description><![CDATA[Title]]></Description>
+                            <StartTime>2018-05-25 22:46:42</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>0</Duration>
+                            <Extension>
+                                <Any>
+                                    <IconKey>CustomStep</IconKey>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <StepCustomImagePath><![CDATA[Resources\User\ce9ce3b7-83b7-4e32-bbe1-53743a14ff8a.png]]></StepCustomImagePath>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[PCOS Ship To Codes.click]]></Name>
+                            <Description/>
+                            <StartTime>2018-05-25 22:47:05</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Page</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Frame</Type>
+                                                <Name><![CDATA[left]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.WebElement</Type>
+                                                <Name><![CDATA[PCOS Ship To Codes]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[xPath]]></Name>
+                                                <Value><![CDATA[//a[@href='index.asp?Page=ShipTo']]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>WebElement</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Page</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Frame</Type>
+                                                    <Name><![CDATA[left]]></Name>
+                                                    <IconKey>Frame</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.WebElement</Type>
+                                                    <Name><![CDATA[PCOS Ship To Codes]]></Name>
+                                                    <IconKey>WebElement</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[SortBy.select]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>1</td></tr></table>]]></Description>
+                            <StartTime>2018-05-25 22:47:11</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>3</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Page</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Frame</Type>
+                                                <Name><![CDATA[content]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.RadioGroup</Type>
+                                                <Name><![CDATA[SortBy]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>select</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>1</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[xPath]]></Name>
+                                                <Value><![CDATA[//input[@name='SortBy']]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>RadioGroup</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Page</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Frame</Type>
+                                                    <Name><![CDATA[content]]></Name>
+                                                    <IconKey>Frame</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.RadioGroup</Type>
+                                                    <Name><![CDATA[SortBy]]></Name>
+                                                    <IconKey>RadioGroup</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Submit.click]]></Name>
+                            <Description/>
+                            <StartTime>2018-05-25 22:47:13</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Page</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Frame</Type>
+                                                <Name><![CDATA[content]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.WebElement</Type>
+                                                <Name><![CDATA[Submit]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[xPath]]></Name>
+                                                <Value><![CDATA[//input[@value='Submit']]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>WebElement</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Page</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Frame</Type>
+                                                    <Name><![CDATA[content]]></Name>
+                                                    <IconKey>Frame</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.WebElement</Type>
+                                                    <Name><![CDATA[Submit]]></Name>
+                                                    <IconKey>WebElement</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[IncDel.click]]></Name>
+                            <Description/>
+                            <StartTime>2018-05-25 22:47:39</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>3</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Page</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Frame</Type>
+                                                <Name><![CDATA[content]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.CheckBox</Type>
+                                                <Name><![CDATA[IncDel]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[xPath]]></Name>
+                                                <Value><![CDATA[//input[@name='IncDel']]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>CheckBox</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Page</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Frame</Type>
+                                                    <Name><![CDATA[content]]></Name>
+                                                    <IconKey>Frame</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.CheckBox</Type>
+                                                    <Name><![CDATA[IncDel]]></Name>
+                                                    <IconKey>CheckBox</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Submit.click]]></Name>
+                            <Description/>
+                            <StartTime>2018-05-25 22:47:42</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Page</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Frame</Type>
+                                                <Name><![CDATA[content]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.WebElement</Type>
+                                                <Name><![CDATA[Submit]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[xPath]]></Name>
+                                                <Value><![CDATA[//input[@value='Submit']]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>WebElement</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Page</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Frame</Type>
+                                                    <Name><![CDATA[content]]></Name>
+                                                    <IconKey>Frame</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.WebElement</Type>
+                                                    <Name><![CDATA[Submit]]></Name>
+                                                    <IconKey>WebElement</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[ZA.click]]></Name>
+                            <Description/>
+                            <StartTime>2018-05-25 22:47:46</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>2</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Page</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Frame</Type>
+                                                <Name><![CDATA[content]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.WebElement</Type>
+                                                <Name><![CDATA[ZA]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[xPath]]></Name>
+                                                <Value><![CDATA[//a[@href='#CodeZA']]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>WebElement</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Page</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Frame</Type>
+                                                    <Name><![CDATA[content]]></Name>
+                                                    <IconKey>Frame</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.WebElement</Type>
+                                                    <Name><![CDATA[ZA]]></Name>
+                                                    <IconKey>WebElement</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Top.click]]></Name>
+                            <Description/>
+                            <StartTime>2018-05-25 22:48:26</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Link</Type>
+                                                <Name><![CDATA[Top]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Link</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Link</Type>
+                                                    <Name><![CDATA[Top]]></Name>
+                                                    <IconKey>Link</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[BCA PO Notes.closeAllTabs]]></Name>
+                            <Description/>
+                            <StartTime>2018-05-25 22:48:35</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[BCA PO Notes]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>closeAllTabs</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[type]]></Name>
+                                                <Value><![CDATA[Mozilla Firefox]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[version]]></Name>
+                                                <Value><![CDATA[52.7.2]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Browser</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[BCA PO Notes]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
